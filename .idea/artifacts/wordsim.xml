@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="wordsim">
+    <output-path>$PROJECT_DIR$/out/artifacts/wordsim</output-path>
+    <root id="archive" name="wordsim.jar">
+      <element id="module-output" name="wordsim" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../ansj_seg-master/out/artifacts/ansj_seg/ansj_seg.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../nlp-lang-0.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
