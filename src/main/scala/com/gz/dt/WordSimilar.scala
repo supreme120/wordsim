@@ -15,6 +15,7 @@ class WordSimilar {
 object WordSimilar {
   def main(args: Array[String]) {
     println("start......")
+    println("abccccc....")
     val conf = new SparkConf().setAppName("wordsim")//.setMaster("local[4]")
     val sc = new SparkContext(conf)
 
